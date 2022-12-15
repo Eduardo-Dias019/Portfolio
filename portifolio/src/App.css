@@ -1,0 +1,54 @@
+body{
+  background-color: rgb(12, 12, 12);
+  margin-left: 10%;
+  margin-right: 10%;
+}
+li{
+  display: flex;
+}
+ul{
+  list-style: none;
+  padding: 10px;
+  padding-left: 0;
+  font-size: 1.2em;
+}
+.apresentation{
+  display: flex;
+}
+.apresentation img{
+  position: absolute;
+  height: 400px;
+  top: 15%;  
+  right: 20%;
+  animation-iteration-count: infinite;
+  animation-duration: 5s;
+  animation-name: imganimate;
+  animation-timing-function: ease-in-out;
+  filter: grayscale(100%);
+  transition-duration: 0.5s;
+}
+
+.apresentation img:hover{
+  filter: grayscale(0%);
+}
+
+@keyframes imganimate{
+  0%{
+    top: 15%;
+  }
+  50%{
+    top: 20%;
+  }
+  100%{
+    top: 15%;
+  }
+}
+
+.apresentation h1{
+  position: absolute;
+  top: 30%;
+  left: 20%;
+  font-weight: 800;
+  width: 500px;
+  font-size: 2em;
+}
