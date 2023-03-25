@@ -1,34 +1,34 @@
-body{
+body {
   background-color: rgb(12, 12, 12);
   margin-left: 10%;
   margin-right: 10%;
 }
-li{
+li {
   display: flex;
 }
-ul{
+ul {
   list-style: none;
   padding: 20px;
   padding-left: 0;
   font-size: 1.2em;
 }
 
-a{
+a {
   text-decoration: none;
   transition-duration: 0.5s;
 }
-a:hover{
+a:hover {
   color: rgb(255, 0, 0);
 }
 
-.apresentation{
+.apresentation {
   display: flex;
 }
-.apresentation img{
+.apresentation img {
   position: relative;
   height: 400px;
   top: 15%;
-  right: -18%;  
+  right: -18%;
   animation-iteration-count: infinite;
   animation-duration: 5s;
   animation-name: imganimate;
@@ -37,81 +37,80 @@ a:hover{
   transition-duration: 0.5s;
 }
 
-.apresentation img:hover{
+.apresentation img:hover {
   filter: grayscale(0%);
 }
 
-@keyframes imganimate{
-  0%{
+@keyframes imganimate {
+  0% {
     top: 15%;
   }
-  50%{
+  50% {
     top: 20%;
   }
-  100%{
+  100% {
     top: 15%;
   }
 }
 
-.apresentation h1{
+.apresentation h1 {
   position: relative;
-  margin-top: 20%;
+  margin-top: 10%;
   font-weight: 800;
   width: 500px;
   font-size: 2em;
 }
 
-.about-me{
+.about-me {
   margin-top: 30%;
 }
 
-.about-me h1{
+.about-me h1 {
   text-align: center;
   font-weight: 700;
   margin-bottom: 2%;
 }
 
-.box{
+.box {
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
   width: 830px;
   border: 3px solid red;
-  border-top-left-radius: 30px; 
+  border-top-left-radius: 30px;
   border-top-right-radius: 10px;
   border-bottom-right-radius: 30px;
   border-bottom-left-radius: 10px;
-  box-shadow: 0px 0px 25px rgba(255, 0, 0, 0.705),inset 0px 0px 8px red;
-
+  box-shadow: 0px 0px 25px rgba(255, 0, 0, 0.705), inset 0px 0px 8px red;
 }
 
-.box h3{
+.box h3 {
   text-align: center;
   padding: 10px;
 }
 
-.tecnologies{
+.tecnologies {
   margin-top: 30%;
 }
 
-.tecnologies section{
+.tecnologies section {
   display: flex;
   flex-wrap: wrap;
   width: 85vw;
 }
 
-.tecnologies h1{
+.tecnologies h1 {
   text-align: center;
   font-weight: 700;
 }
 
-.tecnologies img{
+.tecnologies img {
   padding: 8px;
 }
 
-.tecnologies div{
+.tecnologies div {
   background-color: rgb(41, 41, 41);
-  height: 190px;
+  height: 210px;
   width: 150px;
   display: flex;
   flex-direction: column;
@@ -122,22 +121,22 @@ a:hover{
   border: 2px solid transparent;
 }
 
-.tecnologies div:hover{
+.tecnologies div:hover {
   border: 2px solid red;
 }
 
-.html .css .javascript .reactjs .nodejs .mysql .mongodb{
+.html .css .javascript .reactjs .nodejs .mysql .mongodb {
   align-items: center;
 }
 
-.services{
+.services {
   margin-top: 5%;
   text-align: center;
   display: flex;
   flex-direction: column;
 }
 
-.container-services{
+.container-services {
   margin-top: 3%;
   display: flex;
   position: absolute;
@@ -145,11 +144,11 @@ a:hover{
   transform: translateX(-50%);
 }
 
-.container-services div{
+.container-services div {
   margin: 10px;
 }
 
-.ux{
+.ux {
   width: 250px;
   height: 280px;
   display: flex;
@@ -160,7 +159,7 @@ a:hover{
   border-radius: 10px;
 }
 
-.ux h2{
+.ux h2 {
   color: black;
   height: 35px;
   text-align: center;
@@ -170,14 +169,14 @@ a:hover{
   border-bottom-right-radius: 13px;
 }
 
-.ux p{
+.ux p {
   font-size: 1.4em;
   text-align: center;
   padding: 7px;
-  text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.705);
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.705);
 }
 
-.development{
+.development {
   width: 250px;
   height: 280px;
   display: flex;
@@ -188,7 +187,7 @@ a:hover{
   border-radius: 10px;
 }
 
-.development h2{
+.development h2 {
   color: black;
   height: 35px;
   text-align: center;
@@ -198,14 +197,14 @@ a:hover{
   border-bottom-right-radius: 13px;
 }
 
-.development p{
+.development p {
   font-size: 1.4em;
   text-align: center;
   padding: 7px;
-  text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.705);
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.705);
 }
 
-.uxAndDevelopment{
+.uxAndDevelopment {
   width: 250px;
   height: 280px;
   display: flex;
@@ -216,7 +215,7 @@ a:hover{
   border-radius: 10px;
 }
 
-.uxAndDevelopment h2{
+.uxAndDevelopment h2 {
   color: black;
   height: 60px;
   text-align: center;
@@ -226,149 +225,257 @@ a:hover{
   border-bottom-right-radius: 13px;
 }
 
-.uxAndDevelopment p{
+.uxAndDevelopment p {
   font-size: 1.4em;
   text-align: center;
   padding: 7px;
-  text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.705);
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.705);
 }
 
-@media screen and (max-width: 1260px){
-  .apresentation img{
+.motionDesign {
+  width: 250px;
+  height: 280px;
+  display: flex;
+  flex-direction: column;
+  background-color: transparent;
+  background-image: linear-gradient(-45deg, rgb(6, 119, 0), rgb(4, 255, 0));
+  align-items: center;
+  border-radius: 10px;
+}
+
+.motionDesign p {
+  font-size: 1.4em;
+  text-align: center;
+  padding: 7px;
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.705);
+}
+.motionDesign h2 {
+  color: black;
+  height: 35px;
+  text-align: center;
+  background-color: white;
+  width: 220px;
+  border-bottom-left-radius: 13px;
+  border-bottom-right-radius: 13px;
+}
+
+.jobsSection {
+  margin-top: 35%;
+}
+.jobsSection h1 {
+  text-align: center;
+  margin-bottom: 5%;
+}
+.jobsContainer {
+  display: flex;
+}
+.jobsContainer div {
+  margin: 3%;
+}
+
+.contact h1 {
+  margin-top: 5%;
+  text-align: center;
+  margin-bottom: 5%;
+}
+
+@media screen and (max-width: 1260px) {
+  .apresentation img {
     right: -11%;
   }
 }
 
-@media screen and (max-width: 1000px){
-  .apresentation img{
+@media screen and (max-width: 1000px) {
+  .apresentation img {
     right: -3%;
+  }
+  .jobsContainer {
+    flex-wrap: wrap;
   }
 }
 
-@media screen and (max-width: 850px){
-  .box{
+@media screen and (max-width: 850px) {
+  .box {
     width: 650px;
   }
-  .tecnologies{
+  .tecnologies {
     margin-top: 45%;
   }
-  .tecnologies div{
+  .tecnologies div {
     width: 100px;
     height: 140px;
     font-size: 1em;
   }
-  .container-services{
+  .container-services {
     display: flex;
     flex-wrap: wrap;
   }
-  .container-services div{
+  .container-services div {
     width: 210px;
     height: 240px;
     left: -50%;
     transform: translateX(50%);
   }
-  .container-services h2{
+  .container-services h2 {
     font-size: 1.3em;
     width: 185px;
     height: 30px;
   }
-  .uxAndDevelopment h2{
+  .uxAndDevelopment h2 {
     height: 50px;
   }
-  .container-services p{
+  .container-services p {
     font-size: 1.2em;
   }
-
+  .jobsSection {
+    margin-top: 175%;
+  }
 }
 
-@media screen and (max-width: 650px){
-  .apresentation img{
-    height: 250px;
+@media screen and (max-width: 650px) {
+  .contact h1 {
+    font-size: 1.2em;
   }
-  .apresentation h1{
+  li {
+    margin-left: 6%;
+  }
+  .apresentation img {
+    margin-top: 25px;
+    height: 200px;
+    width: 200px;
+  }
+  .apresentation h1 {
     font-size: 1.4em;
+    width: 60%;
   }
-  .about-me h1{
+  .tecnologies {
+    margin-top: 45%;
+  }
+  .about-me h1 {
     font-size: 1.2em;
   }
-  .tecnologies h1{
+  .tecnologies h1 {
     font-size: 1.2em;
   }
-  .box{
+  .box {
     width: 450px;
     font-size: 0.7em;
   }
-  .services h1{
+  .services h1 {
     font-size: 1.2em;
   }
-  .container-services div{
+  .container-services {
+    align-items: center;
+    width: 100vw;
+  }
+  .container-services div {
     width: 150px;
     height: 170px;
   }
-  .container-services h2{
+
+  .container-services h2 {
     font-size: 0.8em;
     width: 130px;
     height: 20px;
   }
-  .uxAndDevelopment h2{
-    height: 40px; 
+  .uxAndDevelopment h2 {
+    height: 40px;
   }
-  .container-services p{
+  .container-services p {
     font-size: 0.8em;
   }
-  .container-services{
+  .container-services {
     display: flex;
     flex-wrap: wrap;
     left: 50%;
     transform: translateX(-50%);
   }
+  .jobsSection {
+    margin-top: 80%;
+  }
+  .jobsSection h1 {
+    font-size: 1.2em;
+  }
+  .jobsContainer iframe {
+    height: 215px;
+    width: 350px;
+  }
+  .jobsContainer {
+    flex-direction: column;
+    align-items: center;
+  }
 }
 
-@media screen and (max-width: 450px){
-  .apresentation img{
-    right: 0;
-    height: 180px;
+@media screen and (max-width: 450px) {
+  .apresentation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
-  .apresentation h1{
-    margin-top: 0%;
+  .apresentation img {
+    margin-top: 25px;
+    margin-left: -15%;
+    height: 265px;
+    width: 265px;
+  }
+  .apresentation h1 {
+    font-size: 1.4em;
+    width: 85vw;
+  }
+  .about-me h1 {
     font-size: 1.2em;
   }
-  .about-me h1{
-    font-size: 1.2em;
-  }
-  .box{
+  .box {
     font-size: 0.8em;
     width: 340px;
   }
-  .tecnologies{
-    margin-left: 8%;
+  .tecnologies {
     margin-top: 100%;
   }
-  .tecnologies h1{
-    position: relative;
-    left: -6.5%;
-    font-size: 1.2em
-  } 
-  .tecnologies div{
-    margin: 7px;
-    width: 70px;
-    height: 90px;
+  .tecnologies h1 {
+    font-size: 1.2em;
+  }
+  .tecnologies div {
+    margin: 15px;
+    width: 135px;
+    height: 165px;
     font-size: 0.7em;
+    font-size: 1em;
   }
-  .services h1{
+  .services h1 {
     font-size: 1.2em;
   }
-  .container-services{
+  .container-services {
     margin-top: 17%;
-    margin-left: -10%;
-  }
-  .container-services div{
     position: relative;
-    left: 22%;
-    transform: scale(130%);
-    margin: 30px;
+    left: 35%;
   }
-  ul{
+  .container-services div {
+    width: 250px;
+    height: 245px;
+  }
+  .container-services h2 {
     font-size: 1.2em;
+    width: 180px;
+    height: 35px;
+  }
+  .container-services p {
+    font-size: 1.1em;
+  }
+  .uxAndDevelopment h2 {
+    height: 48px;
+  }
+  li {
+    margin-left: -3%;
+  }
+  ul {
+    font-size: 1.2em;
+  }
+  .jobsSection {
+    margin-top: 20%;
+  }
+  .jobsContainer {
+    position: relative;
+    left: -6%;
   }
 }
